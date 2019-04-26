@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 
 
 const BurgerLink = () => (
-    <Link to="/" className={this.props.active ? 'nn-mobile-nav__button js-mobile-nav-opened' : 'nn-mobile-nav__button'}
+    <Link to="/" className={this.props.active ? 'nn-mobile-nav__burger js-mobile-nav-opened' : 'nn-mobile-nav__burger'}
           onClick={this.props.toggleClass}>
 
     </Link>

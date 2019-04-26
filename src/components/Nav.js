@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import { Link } from 'react-router-dom';
-import { NavHashLink as NavLink } from 'react-router-hash-link';
+//import { NavHashLink as NavLink } from 'react-router-hash-link';
 import PageDate from './../constant/PageDate';
 import NavMobile from './NavMobile';
 //import BurgerLink from './BurgerLink';
@@ -29,15 +29,15 @@ class Nav extends Component {
     render() {
         return (
             <div className="nn-b_nav">
-                <Link to={`/`} className={this.props.active ? 'nn-mobile-nav__button js-mobile-nav-opened' : 'nn-mobile-nav__button'}
+                <Link to={`/`} className={this.props.active ? 'nn-mobile-nav__burger js-mobile-nav-opened' : 'nn-mobile-nav__burger'}
                       onClick={this.toggleClass}>
                 </Link>
                 <NavMobile active={this.state.active ? 'nn-modal js-modal-opened' : 'nn-modal'}/>
                 <div className=" nn-nav">
                     {
                         PageDate.nav.map(s => (
-                            <div key={s.id} className=" nn-nav__item">
-                                <NavLink smooth to={`#${s.id}`}>{s.title}</NavLink>
+                            <div key={s.id} className={this.props.active ? 'nn-nav__item active' : 'nn-nav__item'} onClick={this.toggleClass}>
+                                <Link to={`#${s.id}`}>{s.title}</Link>
                             </div>
                         ))
                     }

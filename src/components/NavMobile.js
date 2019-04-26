@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import { HashLink as Link } from 'react-router-hash-link';
+import { Link } from 'react-router-dom';
 import PageDate from './../constant/PageDate';
 
 class NavMobile extends Component {
@@ -10,7 +10,7 @@ class NavMobile extends Component {
                     {
                         PageDate.nav.map(s => (
                             <div key={s.id} className="nn-mobile-nav__item">
-                                <Link smooth to={`#${s.id}`}>{s.title}</Link>
+                                <Link to={`#${s.id}`}>{s.title}</Link>
                             </div>
                         ))
                     }
