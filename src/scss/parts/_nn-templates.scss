@@ -82,7 +82,7 @@
 .nn-container{
   min-width:320px;
   margin:0 auto;
-  max-width:1200px;
+  max-width:990px;
 }
 .nn-footer{
   align-items:center;
@@ -97,8 +97,8 @@
   }
 }
 .nn-header{
-  background-color:$bg-second;
-  padding: 15px 100px;
+  padding-top:30px;
+  padding-bottom:30px;
 }
 .nn-mobile-nav{
   display:flex;
@@ -163,8 +163,9 @@
 }
 .nn-nav{
   display:flex;
+  font-size:20px;
+  justify-content:space-between;
   &__item{
-    margin-right:30px;
     &.active{
       border-bottom:1px solid $bg-first;
     }

@@ -28,7 +28,7 @@ class Nav extends Component {
 
     render() {
         return (
-            <div className="nn-b_nav">
+            <div>
                 <Link to={`/`} className={this.props.active ? 'nn-mobile-nav__burger js-mobile-nav-opened' : 'nn-mobile-nav__burger'}
                       onClick={this.toggleClass}>
                 </Link>
@@ -36,8 +36,8 @@ class Nav extends Component {
                 <div className=" nn-nav">
                     {
                         PageDate.nav.map(s => (
-                            <div key={s.id} className={this.props.active ? 'nn-nav__item active' : 'nn-nav__item'} onClick={this.toggleClass}>
-                                <Link to={`#${s.id}`}>{s.title}</Link>
+                            <div key={s.id} className={this.props.active ? 'nn-nav__item active' : 'nn-nav__item'}>
+                                <Link to={`/${s.id}`}>{s.title}</Link>
                             </div>
                         ))
                     }

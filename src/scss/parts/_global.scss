@@ -35,6 +35,7 @@ footer{
   padding-bottom:30px;
 }
 header{
+  background-color:$bg-second;
   color:$text-color-third;
   max-width:1200px;
   min-width:320px;
@@ -43,12 +44,10 @@ header{
   z-index:10000;
   width:100%;
 }
-h2{
-  text-transform:uppercase;
-}
+
 h1{
   font-size:$font-size-h1;
-  margin-bottom:35px;
+  margin-bottom:30px;
 }
 h2{
   font-size:$font-size-larger;

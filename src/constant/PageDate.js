@@ -13,25 +13,34 @@ const PageDate = {
         "redkix",
         "nos"
     ],
-    logo: {
-        name: "logo"
-    },
     nav: [
         {
-            id: "services",
-            title: "Services"
+            id: "aktuelles",
+            title: "Aktuelles"
         },
         {
-            id: "clients",
-            title: "Clients"
+            id: "projekte",
+            title: "Projekte"
         },
         {
-            id: "team",
-            title: "Our team"
+            id: "studierende",
+            title: "Studierende"
         },
         {
-            id: "contacts",
-            title: "Contact Us"
+            id: "unternehmen",
+            title: "Unternehmen"
+        },
+        {
+            id: "zur-person",
+            title: "Zur Person"
+        },
+        {
+            id: "abschlussarbeiten",
+            title: "Abschlussarbeiten"
+        },
+        {
+            id: "kontakt",
+            title: "Kontakt"
         }
     ],
     services: [
