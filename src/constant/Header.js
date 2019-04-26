@@ -8,7 +8,7 @@ const Header = () => (
             <div className="nn-header">
                 <div className="nn-header__item">
                     <Link to={`/`}>
-                        <h1>Prof. Dr. Jochem Muller</h1>
+                        <h1 className="title title_header">Prof. Dr. Jochem Muller</h1>
                     </Link>
                 </div>
                 <div className="nn-header__item">

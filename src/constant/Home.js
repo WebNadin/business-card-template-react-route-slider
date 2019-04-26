@@ -1,13 +1,16 @@
 import React from 'react';
-import Card from './Card';
+import CardBiography from './CardBiography';
+import CardAwards from './CardAwards';
 import Slider from './Slider';
 
 
 const Home = () => (
-    <div>
-        <Card name="biography"/>
-        <Slider/>
-        <Card name="awards"/>
+    <div className="nn-container">
+        <div className="home">
+            <CardBiography/>
+            <Slider/>
+            <CardAwards/>
+        </div>
     </div>
 );
 

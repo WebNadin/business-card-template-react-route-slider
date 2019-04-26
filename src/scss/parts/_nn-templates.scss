@@ -24,16 +24,7 @@
     }
   }
 }*/
-/*.nn-b_img{
-  margin-right:45px;
-  width:100px;
-  svg{
-    height:60px;
-  }
-  &_team{
-    margin-right:35px;
-  }
-}*/
+
 /*.nn-button{
   background-color:$bg-second;
   box-shadow:0 4px 4px rgba(0, 0, 0, 0.25), 0 4px 4px rgba(0, 0, 0, 0.25);
@@ -49,18 +40,18 @@
   transition:all .5s ease;
 }*/
 .nn-card{
+  align-items:center;
   display:flex;
   justify-content:space-between;
-  &_team{
-    justify-content:flex-start;
-  }
-  &__item{
-    align-items:center;
-    display:flex;
-    padding-right:20%;
-    &_team{
-      padding-right:0;
+  margin:0 auto;
+  &__img{
+    width:32%;
+    &_right{
+      order:2;
     }
+  }
+  &__content{
+    width:58%;
   }
 }
 /*.nn-clients{
@@ -82,7 +73,7 @@
 .nn-container{
   min-width:320px;
   margin:0 auto;
-  max-width:990px;
+  max-width:980px;
 }
 .nn-footer{
   align-items:center;
@@ -166,7 +157,7 @@
   font-size:20px;
   justify-content:space-between;
   &__item{
-    padding-bottom: 3px;
+    padding-bottom:3px;
     &.active, &:first-child{
       border-bottom:1px solid $bg-first;
     }

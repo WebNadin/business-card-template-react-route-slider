@@ -24,6 +24,7 @@ body{
   font-size:$font-size-base;
   flex-direction:column;
   height:100%;
+  line-height:30px;
 }
 main{
   flex:1 0 auto;
@@ -37,8 +38,6 @@ footer{
 header{
   background-color:$bg-second;
   color:$text-color-third;
-  max-width:1200px;
-  min-width:320px;
   position:sticky;
   top:0;
   z-index:10000;
@@ -46,16 +45,13 @@ header{
 }
 
 h1{
-  font-size:$font-size-h1;
   margin-bottom:30px;
   margin-left: -3px;
 }
 h2{
-  font-size:$font-size-larger;
 }
 h3{
   color:$title-color-third;
-  font-size:$font-size-large;
 }
 p{
   margin:0;

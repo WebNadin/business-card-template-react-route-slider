@@ -43,18 +43,22 @@ const PageDate = {
     ],
     cards: {
         biography: {
-            imgName: "muller1",
-            title: "Nina",
+            title: "Biografie",
             content: [
-                "Lorem ipsum quam, eget diam leo ipsumtus morbi mauis in porttitae temp sit molestie, eros duis cursus ut.",
-                "Lorem ipsum quam, eget diam leo ipsumtus morbi mauis in porttitae temp sit molestie, eros duis cursus ut.",
-                "Lorem ipsum quam, eget diam leo ipsumtus morbi mauis in porttitae temp sit molestie, eros duis cursus ut.",
+                "Lorem ipsum sed sagittis justo non fusce metus gravida enim, a pellentesque eget sem in nibh magna" +
+                " eget sit porttitor — amet: cursus orci amet nam leo ipsum, rutrum risus, sit in tellus, commodo proin porta nulla metus bibendum molestie magna ipsum enim pellentesque maecenas eget auctor sagittis — orci, maecenas adipiscing pellentesque maecenas",
+                "Lorem ipsum sed sagittis justo non fusce metus gravida enim, a pellentesque eget sem in nibh magna eget sit porttitor — amet: cursus orci amet nam leo ipsum, rutrum risus, sit in tellus, commodo proin porta nulla metus bibendum molestie magna ipsum",
+                "Lorem ipsum sed sagittis justo non fusce metus gravida enim, a pellentesque eget sem in nibh magna eget sit porttitor"
             ]
         },
         awards: {
-            imgName: "muller2",
-            title: "Nina",
-            content: "Team Manager"
+            title: "Preise",
+            content: [
+                "Lorem ipsum sed sagittis justo non fusce metus gravida enim, a pellentesque eget sem in nibh magna" +
+                " eget sit porttitor — amet: cursus orci amet nam leo ipsum, rutrum risus, sit in tellus, commodo proin porta nulla metus bibendum molestie magna ipsum enim pellentesque maecenas eget auctor sagittis — orci, maecenas adipiscing pellentesque maecenas",
+                "Lorem ipsum sed sagittis justo non fusce metus gravida enim, a pellentesque eget sem in nibh magna eget sit porttitor — amet: cursus orci amet nam leo ipsum, rutrum risus, sit in tellus, commodo proin porta nulla metus bibendum molestie magna ipsum",
+                "Lorem ipsum sed sagittis justo non fusce metus gravida enim, a pellentesque eget sem in nibh magna eget sit porttitor"
+            ]
         }
     }
 
