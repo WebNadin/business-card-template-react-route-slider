@@ -1,10 +1,9 @@
 import React, {Component} from 'react';
-import { Link } from 'react-router-dom';
-//import { NavHashLink as NavLink } from 'react-router-hash-link';
+import { Link, NavLink } from 'react-router-dom';
+//import { NavLink } from 'react-router-dom';
 import PageDate from './../constant/PageDate';
 import NavMobile from './NavMobile';
-//import BurgerLink from './BurgerLink';
-//import { BrowserRouter } from 'react-router-dom';
+//import NavLink from './NavLink';
 
 class Nav extends Component {
     constructor(props) {
@@ -17,7 +16,6 @@ class Nav extends Component {
 
     toggleClass() {
         const currentState = this.state.active;
-        console.log("clicked");
         if (!currentState) {
             document.body.classList.add('fixed');
         } else document.body.classList.remove('fixed');
@@ -36,8 +34,8 @@ class Nav extends Component {
                 <div className=" nn-nav">
                     {
                         PageDate.nav.map(s => (
-                            <div key={s.id} className={this.props.active ? 'nn-nav__item active' : 'nn-nav__item'}>
-                                <Link to={`/${s.id}`}>{s.title}</Link>
+                            <div key={s.id} className='nn-nav__item'>
+                                <NavLink activeClassName="active" to={`/${s.id}`}>{s.title}</NavLink>
                             </div>
                         ))
                     }
