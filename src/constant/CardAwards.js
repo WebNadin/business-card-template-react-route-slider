@@ -16,7 +16,7 @@ const CardAwards = () => (
                 <div className="nn-b_content">
                     {
                         PageDate.cards.awards.content.map(s => (
-                            <p className="content content_card">{s}</p>
+                            <p key={s} className="content content_card">{s}</p>
                         ))
                     }
                 </div>
