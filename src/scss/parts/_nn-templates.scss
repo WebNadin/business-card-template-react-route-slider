@@ -115,9 +115,12 @@
   justify-content:space-between;
   &__item{
     padding-bottom:3px;
-    &.active, &:first-child{
+    /*&.active, &:first-child{
       border-bottom:1px solid $bg-first;
-    }
+    }*/
+  }
+  a {
+    padding-bottom: 7px;
   }
 }
 .nn-slider{

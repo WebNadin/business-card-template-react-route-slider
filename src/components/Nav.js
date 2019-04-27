@@ -35,7 +35,9 @@ class Nav extends Component {
                     {
                         PageDate.nav.map(s => (
                             <div key={s.id} className='nn-nav__item'>
-                                <NavLink activeClassName="active" to={`/${s.id}`}>{s.title}</NavLink>
+                                <NavLink  activeClassName="selected" to={`/${s.id}`}>
+                                    <span>{s.title}</span>
+                                </NavLink>
                             </div>
                         ))
                     }

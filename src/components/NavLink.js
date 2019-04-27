@@ -4,13 +4,9 @@ import PageDate from './../constant/PageDate';
 
 class NavLink extends Component {
     render() {
-        var isActive = this.context.router.route.location.pathname === this.props.to;
-        var className = isActive ? 'active' : '';
 
         return (
-            <Link className={className} {...this.props}>
-                {this.props.children}
-            </Link>
+            <Link activeClassName="selected" {...this.props}/>
         );
     }
 }
