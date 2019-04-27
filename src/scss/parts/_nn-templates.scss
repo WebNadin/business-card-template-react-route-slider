@@ -23,7 +23,8 @@
 }
 .nn-contacts{
   &__item{
-    margin-bottom:15px;
+    line-height: normal;
+    margin-bottom: 21px;
     &:last-child{
       margin-bottom:0;
     }
@@ -38,9 +39,8 @@
   justify-content:space-between;
   &__item{
     width:50%;
-    &_social{
-      justify-content:flex-end;
-      display:flex;
+    &_contacts{
+      width: 39%;
     }
   }
 }
@@ -141,9 +141,7 @@
     }
   }
 }
-.nn-contacts{
-  line-height: normal;
-}
+
 
 
 

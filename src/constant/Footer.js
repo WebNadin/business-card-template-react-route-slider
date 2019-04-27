@@ -9,7 +9,7 @@ const Footer = () => (
                     <div className="nn-footer__item">
                         <h3>Datenschutz Impressum</h3>
                     </div>
-                    <div className="nn-footer__item nn-footer__item_social">
+                    <div className="nn-footer__item nn-footer__item_contacts">
                         <Contacts />
                     </div>
                 </div>

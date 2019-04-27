@@ -38,7 +38,7 @@ const PageDate = {
     contacts: [
         {
             id: "mobile",
-            title: "0981/48 77 231"
+            title: "0 9 8 1 / 48 77 231"
         },
         {
             id: "mail3",
