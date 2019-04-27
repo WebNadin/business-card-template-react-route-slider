@@ -35,11 +35,19 @@ const PageDate = {
             title: "Kontakt"
         }
     ],
-    social: [
-        "social-1",
-        "social-2",
-        "social-3",
-        "social-4"
+    contacts: [
+        {
+            id: "mobile",
+            title: "0981/48 77 231"
+        },
+        {
+            id: "mail3",
+            title: "Jochem.mueller@hs-ansbach.de"
+        },
+        {
+            id: "home3",
+            title: "FH Ansbach Residenz str. 8 91522 Ansbach"
+        }
     ],
     cards: {
         biography: {

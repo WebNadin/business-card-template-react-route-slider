@@ -1,5 +1,5 @@
 import React from 'react';
-import Social from './Social';
+import Contacts from './Contacts';
 
 const Footer = () => (
     <footer>
@@ -7,10 +7,10 @@ const Footer = () => (
             <div className="nn-container">
                 <div className="nn-footer">
                     <div className="nn-footer__item">
-                        some text
+                        <h3>Datenschutz Impressum</h3>
                     </div>
                     <div className="nn-footer__item nn-footer__item_social">
-                        <Social />
+                        <Contacts />
                     </div>
                 </div>
             </div>

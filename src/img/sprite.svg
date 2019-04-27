@@ -1,0 +1,14 @@
+<svg width="0" height="0" class="hidden">
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" id="home3">
+    <title>home3</title>
+    <path d="M32 19l-6-6V4h-4v5l-6-6L0 19v1h4v10h10v-6h4v6h10V20h4z"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" id="mail3">
+    <title>mail3</title>
+    <path d="M26.667 0H5.334C2.4 0 0 2.4 0 5.334v21.332C0 29.602 2.4 32 5.334 32h21.333C29.601 32 32 29.602 32 26.666V5.334C32 2.4 29.601 0 26.667 0zM5.707 27.707l-2.414-2.414 8-8 .914.914-6.5 9.5zm-.914-21.5l.914-.914L16 13.586l10.293-8.293.914.914L16 19.414 4.793 6.207zm21.5 21.5l-6.5-9.5.914-.914 8 8-2.414 2.414z"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" id="mobile">
+    <title>mobile</title>
+    <path d="M23 0H9C7.35 0 6 1.35 6 3v26c0 1.65 1.35 3 3 3h14c1.65 0 3-1.35 3-3V3c0-1.65-1.35-3-3-3zM12 1.5h8v1h-8v-1zM16 30a2 2 0 1 1-.001-3.999A2 2 0 0 1 16 30zm8-6H8V4h16v20z"></path>
+  </symbol>
+</svg>
