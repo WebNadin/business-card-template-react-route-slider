@@ -27,7 +27,7 @@ class Nav extends Component {
     render() {
         return (
             <div>
-                <Link to={`/`} className={this.props.active ? 'nn-mobile-nav__burger js-mobile-nav-opened' : 'nn-mobile-nav__burger'}
+                <Link to={`/`} className={this.state.active ? 'nn-mobile-nav__burger js-mobile-nav-opened' : 'nn-mobile-nav__burger'}
                       onClick={this.toggleClass}>
                 </Link>
                 <NavMobile active={this.state.active ? 'nn-modal js-modal-opened' : 'nn-modal'}/>

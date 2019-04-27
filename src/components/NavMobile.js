@@ -5,7 +5,7 @@ import PageDate from './../constant/PageDate';
 class NavMobile extends Component {
     render() {
         return (
-            <div className={this.props.active} id="modal" ref="modal">
+            <div className={this.props.active} id="modal">
                 <div className="nn-mobile-nav">
                     {
                         PageDate.nav.map(s => (

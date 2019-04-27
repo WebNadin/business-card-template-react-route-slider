@@ -4,9 +4,9 @@ import { Link } from 'react-router-dom'
 
 
 const BurgerLink = () => (
-    <Link to="/" className={this.props.active ? 'nn-mobile-nav__burger js-mobile-nav-opened' : 'nn-mobile-nav__burger'}
+    <Link to="/" className={this.props.active ? 'nn-mobile-nav__button js-mobile-nav-opened' : 'nn-mobile-nav__button'}
           onClick={this.props.toggleClass}>
-
+console.log('this.props.toggleClass = ');console.log(this.props.toggleClass);
     </Link>
 );
 
