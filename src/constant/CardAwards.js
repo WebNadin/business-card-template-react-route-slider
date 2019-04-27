@@ -7,7 +7,7 @@ const CardAwards = () => (
 
         <div className="nn-card">
             <div className="nn-card__img nn-card__img_right">
-                <img className='' src={muller2} alt=""/>
+                <img className='' src={muller2} alt="Prof.Muller with award"/>
             </div>
             <div className="nn-card__content">
                 <h2 className="title title_card">

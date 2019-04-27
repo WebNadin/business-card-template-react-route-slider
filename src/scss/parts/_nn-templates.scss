@@ -1,44 +1,3 @@
-/*.nn-b_cards{
-  display:flex;
-  flex-flow:row wrap;
-  justify-content:center;
-  margin-bottom:55px;
-  margin-top:65px;
-  width:100%;
-  &__item{
-    box-sizing:border-box;
-    padding-bottom:35px;
-    padding-top:35px;
-    width:50%;
-    &_services{
-      &:nth-child(2n){
-        padding-left:45px;
-      }
-    }
-    &_team{
-      margin-right:35px;
-      width:30%;
-      &:nth-child(3n){
-        margin-right:0;
-      }
-    }
-  }
-}*/
-
-/*.nn-button{
-  background-color:$bg-second;
-  box-shadow:0 4px 4px rgba(0, 0, 0, 0.25), 0 4px 4px rgba(0, 0, 0, 0.25);
-  border:none;
-  border-radius:10px;
-  color:$text-color-btn-first;
-  cursor:pointer;
-  font-size:$font-size-large;
-  margin-top:100px;
-  outline:none;
-  padding:0 50px;
-  text-shadow:0 4px 4px rgba(0, 0, 0, 0.25), 0 4px 4px rgba(0, 0, 0, 0.25), 0 4px 4px rgba(0, 0, 0, 0.25), 0 4px 4px rgba(0, 0, 0, 0.25);
-  transition:all .5s ease;
-}*/
 .nn-card{
   align-items:center;
   display:flex;
@@ -182,28 +141,10 @@
     }
   }
 }
-/*.nn-contacts{
-  font-size:$font-size-largest;
-  line-height:57px;
-  margin:0 auto 100px;
-  padding-left:10px;
-  padding-right:10px;
-  &__title{
-    margin-bottom:35px;
-    text-align:center;
-  }
-}*/
-/*.nn-title{
-  &_line{
-    background-color:$bg-first;
-    left:-16px;
-    overflow:hidden;
-    padding-left:16px;
-    padding-right:16px;
-    position:absolute;
-    top:0;
-  }
-}*/
+.nn-contacts{
+  line-height: normal;
+}
+
 
 
 

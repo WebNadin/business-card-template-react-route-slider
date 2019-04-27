@@ -8,7 +8,7 @@ const CardBiography = () => (
 
         <div className="nn-card">
             <div className="nn-card__img">
-                <img className='' src={muller1} alt=""/>
+                <img className='' src={muller1} alt="Prof.Muller"/>
             </div>
             <div className="nn-card__content">
                 <h2 className="title title_card">
