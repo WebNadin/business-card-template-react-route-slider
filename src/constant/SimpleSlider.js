@@ -7,10 +7,10 @@ import slide2 from '../img/slide2.jpg';
 class SimpleSlider extends Component {
     render() {
         var settings = {
-            //autoplay: true,
+            adaptiveHeight: true,
             dots: true,
             infinite: true,
-            //speed: 10000,
+            speed: 500,
             slidesToShow: 1,
             slidesToScroll: 1
         };

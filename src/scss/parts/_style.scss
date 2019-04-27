@@ -7,7 +7,7 @@
 }
 .home{
   &__card{
-    padding:32px 0;
+    padding: 33px 0 36px;
   }
 }
 .icon{
@@ -29,6 +29,40 @@
 .service-page{
   text-align:center;
   margin-bottom:100px;
+}
+.slick-slider{
+  img{
+    width:100%;
+  }
+  .slick-dots{
+    bottom:40px;
+    li{
+      button:before{
+        font-size:16px;
+        opacity:0.65;
+      }
+      &.slick-active button:before{
+        opacity:1;
+      }
+    }
+  }
+  .slick-prev, .slick-next{
+    cursor:pointer;
+    height:54px;
+    width:54px;
+    z-index:1;
+    &::before, &:after{
+      color:$bg-second;
+      font-size:54px;
+      opacity:1;
+    }
+  }
+  .slick-prev{
+    left:calc(50% - 490px);
+  }
+  .slick-next{
+    right:calc(50% - 490px);
+  }
 }
 .title{
   &_header{
