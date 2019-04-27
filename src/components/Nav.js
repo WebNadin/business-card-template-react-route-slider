@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import { Link, NavLink } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 //import { NavLink } from 'react-router-dom';
 import PageDate from './../constant/PageDate';
 import NavMobile from './NavMobile';
@@ -27,9 +27,9 @@ class Nav extends Component {
     render() {
         return (
             <div>
-                <Link to={`/`} className={this.state.active ? 'nn-mobile-nav__burger js-mobile-nav-opened' : 'nn-mobile-nav__burger'}
+                <div className={this.state.active ? 'nn-mobile-nav__burger js-mobile-nav-opened' : 'nn-mobile-nav__burger'}
                       onClick={this.toggleClass}>
-                </Link>
+                </div>
                 <NavMobile active={this.state.active ? 'nn-modal js-modal-opened' : 'nn-modal'}/>
                 <div className=" nn-nav">
                     {

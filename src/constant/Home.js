@@ -1,7 +1,7 @@
 import React from 'react';
 import CardBiography from './CardBiography';
 import CardAwards from './CardAwards';
-import SimpleSlider from './SimpleSlider';
+import SimpleSlider from './../components/SimpleSlider';
 
 
 const Home = () => (

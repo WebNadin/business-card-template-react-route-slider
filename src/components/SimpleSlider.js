@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-import PageDate from './PageDate';
 import Slider from "react-slick";
 import slide1 from '../img/slide1.jpg';
 import slide2 from '../img/slide2.jpg';
