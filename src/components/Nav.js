@@ -24,18 +24,19 @@ class Nav extends Component {
 
     };
 
+
     render() {
         return (
             <div>
                 <div className={this.state.active ? 'nn-mobile-nav__burger js-mobile-nav-opened' : 'nn-mobile-nav__burger'}
-                      onClick={this.toggleClass}>
+                     onClick={this.toggleClass}>
                 </div>
                 <NavMobile active={this.state.active ? 'nn-modal js-modal-opened' : 'nn-modal'}/>
                 <div className=" nn-nav">
                     {
                         PageDate.nav.map(s => (
                             <div key={s.id} className='nn-nav__item'>
-                                <NavLink  activeClassName="selected" to={`/${s.id}`}>
+                                <NavLink exact activeClassName="selected" to={`/${s.path}`}>
                                     <span>{s.title}</span>
                                 </NavLink>
                             </div>

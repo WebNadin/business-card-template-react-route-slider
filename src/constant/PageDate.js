@@ -8,30 +8,37 @@ const PageDate = {
     nav: [
         {
             id: "aktuelles",
+            path: "",
             title: "Aktuelles"
         },
         {
             id: "projekte",
+            path: "projekte",
             title: "Projekte"
         },
         {
             id: "studierende",
+            path: "studierende",
             title: "Studierende"
         },
         {
             id: "unternehmen",
+            path: "unternehmen",
             title: "Unternehmen"
         },
         {
             id: "zur-person",
+            path: "zur-person",
             title: "Zur Person"
         },
         {
             id: "abschlussarbeiten",
+            path: "abschlussarbeiten",
             title: "Abschlussarbeiten"
         },
         {
             id: "kontakt",
+            path: "kontakt",
             title: "Kontakt"
         }
     ],
