@@ -26,7 +26,6 @@ class SimpleSlider extends Component {
             </article>
         );
     }
-}
-;
+};
 
 export default SimpleSlider;

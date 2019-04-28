@@ -1,9 +1,7 @@
 import React, {Component} from 'react';
 import { NavLink } from 'react-router-dom';
-//import { NavLink } from 'react-router-dom';
 import PageDate from './../constant/PageDate';
 import NavMobile from './NavMobile';
-//import NavLink from './NavLink';
 
 class Nav extends Component {
     constructor(props) {

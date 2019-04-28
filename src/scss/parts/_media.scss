@@ -33,6 +33,10 @@
     padding-top:40px;
     padding-bottom:40px;
   }
+  .slick-slider img{
+    height:350px;
+    transform:scale(1)
+  }
   .title{
     &_card{
       font-size:42px;
@@ -40,10 +44,6 @@
     &_header{
       font-size:38px;
     }
-  }
-  .slick-slider img{
-    height:350px;
-    transform: scale(1)
   }
 }
 @media screen and (max-width:540px) {

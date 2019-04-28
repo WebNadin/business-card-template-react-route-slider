@@ -4,7 +4,6 @@ import PageDate from './../constant/PageDate';
 
 class NavLink extends Component {
     render() {
-
         return (
             <Link activeClassName="selected" {...this.props}/>
         );
