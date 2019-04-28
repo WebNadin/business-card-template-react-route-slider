@@ -14,7 +14,7 @@ class SimpleSlider extends Component {
             slidesToScroll: 1
         };
         return (
-            <article className="nn-slider">
+            <article className="nn-slider slide-in-fwd-center">
                 <Slider {...settings}>
                     <div>
                         <img className='' src={slide1} alt="Italian embassy"/>

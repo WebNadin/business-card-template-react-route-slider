@@ -3,7 +3,7 @@ import PageDate from './PageDate';
 import muller2 from '../img/muller2.JPG';
 
 const CardAwards = () => (
-    <section className="home__card">
+    <section className="home__card slide-in-right">
         <div className="nn-container">
             <div className="nn-card">
                 <div className="nn-card__img nn-card__img_right">

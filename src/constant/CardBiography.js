@@ -3,7 +3,7 @@ import PageDate from './PageDate';
 import muller1 from '../img/muller1.JPG';
 
 const CardBiography = () => (
-    <section className="home__card">
+    <section className="home__card slide-in-left">
         <div className="nn-container">
             <div className="nn-card">
                 <div className="nn-card__img">
