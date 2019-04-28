@@ -2,7 +2,6 @@ import React from 'react';
 import PageDate from './PageDate';
 import muller1 from '../img/muller1.JPG';
 
-
 const CardBiography = () => (
     <section className="home__card">
         <div className="nn-container">

@@ -1,12 +1,12 @@
 import React from 'react';
 import { Switch, Route } from 'react-router-dom';
 import Home from './Home';
-import Projekte from './Projekte';
-import Studierende from './Studierende';
-import Unternehmen from './Unternehmen';
-import ZurPerson from './ZurPerson';
-import Abschlussarbeiten from './Abschlussarbeiten';
-import Kontakt from './Kontakt';
+import Projekte from './pages/Projekte';
+import Studierende from './pages/Studierende';
+import Unternehmen from './pages/Unternehmen';
+import ZurPerson from './pages/ZurPerson';
+import Abschlussarbeiten from './pages/Abschlussarbeiten';
+import Kontakt from './pages/Kontakt';
 
 const Main = () => (
     <main>

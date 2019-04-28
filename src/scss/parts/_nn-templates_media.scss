@@ -45,6 +45,20 @@
     &__content{
       width:100%;
     }
+    &_contacts{
+      justify-content:flex-start;
+    }
+  }
+  .nn-footer{
+    flex-flow:row wrap;
+    &__item{
+      width:auto;
+      &_contacts{
+        width:auto;
+        display:flex;
+        justify-content:flex-end;
+      }
+    }
   }
   .nn-header{
     margin-right:42px;
@@ -60,12 +74,33 @@
     display:none;
   }
 }
+@media screen and (max-width:850px) {
+  .nn-card_contacts{
+    justify-content:flex-start;
+    flex-wrap:nowrap;
+  }
+  .nn-footer__item{
+    margin-top:40px;
+    width:100%;
+    &_contacts{
+      justify-content:flex-start;
+      margin-top:0;
+      order:-1;
+    }
+  }
+}
 @media screen and (max-width:768px) {
   .nn-card{
     justify-content:center;
+    &_contacts{
+      justify-content:flex-start;
+    }
     &__img{
       width:70%;
     }
+  }
+  .nn-contacts{
+    font-size:20px;
   }
   .nn-mobile-nav{
     font-size:30px;
@@ -76,6 +111,9 @@
   }
 }
 @media screen and (max-width:540px) {
+  .nn-contacts{
+    font-size:18px;
+  }
   .nn-mobile-nav{
     font-size:26px;
     line-height:70px;

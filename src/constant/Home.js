@@ -5,13 +5,11 @@ import SimpleSlider from './../components/SimpleSlider';
 
 
 const Home = () => (
-
         <div className="home">
             <CardBiography/>
             <SimpleSlider/>
             <CardAwards/>
         </div>
-
 );
 
 export default Home;

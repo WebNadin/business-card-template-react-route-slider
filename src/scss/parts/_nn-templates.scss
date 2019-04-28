@@ -13,6 +13,11 @@
       order:2;
     }
   }
+  &__item{
+    &_text{
+      margin-top:2px;
+    }
+  }
   &__content{
     width:58%;
   }
