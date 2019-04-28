@@ -1,15 +1,50 @@
-@media screen and (min-width:993px) {
-  [type=submit]:not(:disabled), button:not(:disabled){
-    &:hover{
-      cursor:pointer
+@media screen and (max-width:992px) {
+  .home__card{
+    padding-top:48px;
+    padding-bottom:60px;
+  }
+  .slick-slider{
+    .slick-prev{
+      left:30px;
+    }
+    .slick-next{
+      right:30px;
+    }
+  }
+  .title{
+    &_header{
+      margin-bottom:0;
+    }
+    &_card{
+      font-size:48px;
+      margin-top:50px;
+      text-align:center;
+    }
+    &_awards{
+      margin-top:0;
     }
   }
 }
-
-@media screen and (max-width:992px) {
-  [type=submit]:not(:disabled), button:not(:disabled){
-    &:hover{
-      cursor:inherit;
+@media screen and (max-width:768px) {
+  body{
+    font-size:24px;
+  }
+  .title{
+    &_card{
+      font-size:42px;
+    }
+    &_header{
+      font-size:38px;
+    }
+  }
+}
+@media screen and (max-width:540px) {
+  .title{
+    &_card{
+      font-size:36px;
+    }
+    &_header{
+      font-size:24px;
     }
   }
 }

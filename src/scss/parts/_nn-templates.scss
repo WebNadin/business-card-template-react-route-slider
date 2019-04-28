@@ -1,6 +1,7 @@
 .nn-card{
   align-items:center;
   display:flex;
+  flex-flow:row wrap;
   justify-content:space-between;
   margin:0 auto;
   &_contacts{
@@ -14,6 +15,9 @@
   }
   &__content{
     width:58%;
+  }
+  img{
+    width:100%;
   }
 }
 .nn-container{
