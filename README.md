@@ -9,7 +9,7 @@
  - styled-components
  - slick-slider
 
- There are all adaptive styles for tablet and phones. The project has several "pages"(react-router).
+ There are some adaptive styles for tablet and phones. The project has several "pages"(react-router).
 
 You can see result on [http://webnadin.inf.ua/](http://webnadin.inf.ua/)
 
